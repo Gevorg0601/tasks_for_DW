@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 25, 25);
+    position: absolute;
+    transition: 0.6s;
+}  

@@ -1,0 +1,64 @@
+*{
+    font-family: "Helvetica";
+  }
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    background-color: #A9D7D1;
+}
+.container{
+    width: 850px;
+    height: 520px;
+    padding-left: 20px;
+    background-color: white;
+}
+.label{
+    text-align: right;
+    margin: 0 13px 25px 0;
+    display: inline-block;
+    width: 380px;
+}
+.inputs{
+    width: 280px;
+    height: 25px;
+    border: 0.1em solid rgb(210, 209, 209);
+}
+.label_select{
+    text-align: right;
+    display: inline-block;
+    width: 110px;
+}
+.select_box{
+    width: 125px;
+    height: 32px;
+    background-color: #F0F0F0;
+}
+.recomment{
+    display: flex;
+}
+.radio_check{
+    margin-bottom: 8px;
+}
+.select_box_FCC{
+    margin: 30px 0 0 0;
+}
+.label_check{
+    text-align: right;
+    margin: 0 13px 25px 0;
+    display: inline-block;
+    width: 363px;
+}
+.check_boxes{
+    display: flex;
+    margin-left: 17px;
+}
