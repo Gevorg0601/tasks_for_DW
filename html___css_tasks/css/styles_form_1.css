@@ -1,0 +1,42 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    resize: none;
+}
+.file-input {
+    color: transparent;
+}
+.file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.file-input::before {
+    content: 'Choose...';
+    color: black;
+    background-color: #efeded;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 1px 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.file-input:hover{
+    opacity: 0.5;
+}
+.select_box{
+    height: 20px;
+    border-radius: 5px;
+    background-color: #efeded;
+}
+.submit{
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: #efeded;
+    padding: 1px 8px;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity: 0.5;
+}
