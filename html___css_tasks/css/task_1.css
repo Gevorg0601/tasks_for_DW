@@ -1,0 +1,32 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+.main_container{
+    border: 1px solid black;
+    width: 1000px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.35);
+}
+.text_container{
+    display: flex;
+    margin-bottom: 55px;
+}
+.first_text{
+    margin: 0;
+}
+.text{
+    font-family: "Comic Sans MS";
+}
+.box_model{
+    margin-right: 35px;
+}
+.title{
+    color: #6CBFEC;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p{
+    margin: 150px 0 20px 0;
+}
