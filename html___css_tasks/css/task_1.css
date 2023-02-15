@@ -1,0 +1,114 @@
+.main_container{
+    border: 1px solid black;
+    width: 1000px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.35);
+}
+.text_container{
+    display: flex;
+    margin-bottom: 55px;
+}
+.first_text{
+    margin: 0;
+}
+.text{
+    font-family: "Comic Sans MS";
+}
+.box_model{
+    margin-right: 35px;
+}
+.title{
+    color: #6CBFEC;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p{
+    margin: 150px 0 20px 0;
+}
+hr{
+    margin: 100px 0;
+    border: 5px solid black;
+}
+.img_css{
+    width: 150px;
+    height: 160px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+.img_text_container{
+    display: flex;
+}
+.user{
+    width: 265px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ECECEC;
+}
+.profile_img{
+    width: 265px;
+    height: 265px;
+    background-color: #F4F4F4;
+}
+.users_container{
+    display: flex;
+    justify-content: center;
+}
+.center_user{
+    margin: 0 20px;
+}
+.background{
+    background-image: url('../images/pattern.jpg');
+    width: 100vw;
+    height: 900px;
+}
+.third_main_container{
+    width: 1000px;
+    border: 2px solid #AB7841;
+    margin: auto;
+}
+.first_div{
+    height: 200px;
+    background-color: #C14D4D;
+}
+.second_div{
+    border: 1pz solid #AB7841;
+    height: 300px;
+    display: flex;
+    background-color: white;
+}
+.left_block{
+    border: 1px solid #AB7841;
+}
+.left_up{
+    border: 1px solid #AB7841;
+    width: 600px;
+    height: 200px;
+    background-color: #ECECEC;
+}
+.small_div_container{
+    display: flex;
+}
+.small_div{
+    width: 146px;
+    height: 97px;
+    border: 1px solid #AB7841;
+    margin-right: 4px;
+    background-color: #ECECEC;
+}
+.right_div{
+    width: 400px;
+    height: 299px;
+    border: 1px solid #AB7841;
+    background-color: #ECECEC;
+}
+.third_div{
+    height: 300px;
+    border: 1px solid #AB7841;
+    background-color: white;
+}
+.fourth_div{
+    height: 65px;
+    background-color: #C14D4D;
+}
