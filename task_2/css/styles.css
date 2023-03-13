@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+body{
+    background-color: #191919;
+}
+.slider {
+    overflow: hidden;
+    width: 100vw;
+}
+@keyframes slider {
+    0% { left: 0; }
+    30% { left: 0; }
+    33% { left: -100%; }
+    63% { left: -100%; }
+    66% { left: -200%; }
+    95% { left: -200%; }
+    100% { left: 0; }
+}
+.slider figure {
+    width: 300%;
+    position: relative;
+    animation: 10s slider infinite;
+}
+.slider figure img {
+    width: 100vw;
+    float: left;
+}
+.navigation{
+    width: 100vw;
+}
+li{
+    list-style: none;
+}
+.nav_ul{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 8;
+    background-color: white;
+    width: inherit;
+}
+.nav_li{
+    padding: 25px;
+    letter-spacing: 2px;
+    font-weight: bold; 
+}
+.a{
+    cursor: pointer;
+    text-decoration: none;  
+}
+.a:visited{
+    color: black;
+}
+.a:hover{
+    color: #00529E;
+}
+.info_container{
+    width: 1100px;
+    height: auto;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.article_container{
+    padding: 15px;
+    height: 512px;
+    background-color: #191919;
+    color: white;
+    position: relative;
+    top: -150px;
+    display: flex;
+}
+.article_title{
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #00529F;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: -150px;
+}
+.article{
+    width: min-content;
+    height: fit-content;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 7px 30px;
+}
+.article:hover{
+    color: #00529E;
+}
+.article_img{
+    width: 200px;
+    height: 130px;
+}
+.date{
+    font-style: italic;
+    color: grey;
+    font-size: small;
+}
+.news{
+    padding: 20px 15px;
+    width: 255px;
+    border-bottom: 1px solid white;
+    background-color: #00529E;
+    color: white;
+    position: relative;
+    top: -150px;
+}
+ul > .news > p{
+    cursor: pointer;
+}
+.news_title{
+    padding: 10px 15px;
+    border: 0;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #00386F;
+    text-align: center;
+}
+.top_articles{
+    display: flex;
+    justify-content: center;
+}
+.infos{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.h3{
+    border-bottom: 1px solid #00386F;
+    border-width: 2px;
+    width: 122px;
+}
+.hr{
+    width: 770px;
+    color: #DDDDDD;
+    margin-bottom: 30px;
+}
+.article_part_2{
+    width: 320px;
+    margin: 25px 15px;
+}
+.article_img_part_2{
+    width: 320px;
+    height: 200px;
+}
+.article_and_info{
+    display: flex;
+}
+.table{
+    width: 300px;
+    height: 290px;
+    border-collapse: collapse;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    border-color: #DEE2E6;
+    padding: 5px;
+}
+.main_page_table td{
+    width: 70px;
+    height: 35px;
+    padding: 0 5px;
+}
+.table_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.table_black_title{
+    width: 330px;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #191919;
+}
+.tournament{
+    width: 200px;
+    height: 30px;
+    background-color: #00529F;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table_and_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -100px;
+}
+.tournment_title{
+    color: white;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 12px;
+}
+.club_logos{
+    width: 11px;
+    height: 14px;
+    margin: 0 5px;
+}
+.club_names{
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.th{
+    border: 1px solid white;
+    background-color: #00529E;
+    color: white;
+    padding: 10px 7px;
+}
+.team{
+    text-align: start;
+}
+tr:nth-child(2n-1) {
+    background-color: #F2F2F2;
+}
+.table_and_title_part_two{
+    margin-top: 170px;
+}
+.clubs{
+    text-align: start;
+    padding: 0 7px;
+    height: 25px;
+}
+.second_club{
+    text-align: end;
+}
+.third_table td{
+    height: 50px;
+}
+.score{
+    width: 30px;
+    letter-spacing: 2px;
+}
+.triangles_container{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    margin-top: 19px;
+    position: relative;  
+}   
+.first_left_triangle{
+    width: 711px;
+    height: 261px;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    position: absolute;
+    left: -70px;
+    cursor: pointer;
+    background: #00529F;
+    text-align: center;
+}
+.big_img{
+    max-width: 100%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.big_img:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+.first_right_triangle{
+    width: 786px;
+    height: 261px;
+    clip-path: polygon(36% 0, 100% 0, 100% 100%, 4% 100%);
+    position: absolute;
+    left: 385px;
+    background: #00529F;
+}
+.text_on_image{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+    top: 39%;
+    left: 15%;
+}
+.text_on_image2{
+    left: 38%;
+}
+.text_on_image_contact{
+    left: 55%;
+}
+.top{
+    top: 280px;
+}
+.results{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.team_name{
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 1px;
+}
+.content{
+    display: flex;
+    padding: 0;
+    text-align: start;
+}
+.players_img{
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+}
+.text{
+    font-weight: 100;
+    font-size: 11px;
+    text-align: start;
+}
+.last_table td{
+    font-size: 14px;
+}
+.background_madrid_logo{
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Images/main_logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 120px 0;
+}
+.fun_text_container{
+    width: 1000px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.fun_text{
+    margin: 20px 0;
+}
+.footer{
+    border-top: 5px solid #00529F;
+    width: 100vw;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_logo{
+    width: 80px;
+    height: 110px;
+}
+.logo_and_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.fa{
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid #777777;
+    padding: 10px;
+    border-radius: 36px;
+    width: 20px;
+    text-align: center;
+    color: #777777;
+}
+.fa:hover{
+    cursor: pointer;
+}
+.navigation_footer{
+    border: 1px solid #777777;
+}
+.nav_ul_footer{
+    position: initial;
+}
+.footer_text{
+    margin-top: 20px;
+    font-weight: 800;
+    color: #777777;
+}

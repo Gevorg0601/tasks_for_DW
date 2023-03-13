@@ -1,0 +1,52 @@
+.h3 {
+    font-size: 60px;
+    border-width: 5px;
+}
+.header_image{
+    background-image: url("../Images/oldplayers.jpg");
+}
+.infoss {
+    width: 650px;
+}
+.table_title {
+    width: 450px;
+}
+.p {
+    width: 72%;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+.input,textarea {
+    width: -webkit-fill-available;
+    height: 30px;
+    margin: 10px 0;
+    text-indent: 5px;
+    font-size: 12.6pt;
+    border-radius: 0;
+    border: solid 1px #D3D3D3;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.input:focus,textarea:focus {
+    box-shadow: 0 0 5pt 2pt #00529E;
+    outline-width: 0px;
+}
+textarea{
+    resize: none;
+    height: 200px;
+    margin-top: 10px;
+}
+.button{
+    padding: 8px 50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #00529E;
+    background-color: white;
+    border: 1px solid #00529E;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: #00529E;
+    color: white;
+}
